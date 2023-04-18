@@ -1,0 +1,51 @@
+body{
+      background-color: #070000;
+      text-align: center;
+}
+header{
+      text-align: center;
+      color: #ffffff;
+      font-size: 20px;
+}
+.button {
+      border: none;
+      color: #ffffff;
+      padding: 20px 42px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 40px 20px;
+      cursor: pointer;
+
+    }
+.start {background-color: #0eb113;} /* Green */
+.stop {background-color: #e91515;} /* Red */
+.statistics{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border-bottom: 5px solid #ffffff;
+      border-top: 5px solid #ffffff;
+      border-left: 5px solid#ffffff;
+      border-right: 5px solid#ffffff;
+      width: 70%
+}
+.statistics th{
+      background-color: #0b0136;
+      color: white;
+}
+.statistics td{
+      background-color: #170124;
+      color: white;
+}
+#reactionButton {
+      border: none;
+      background-color: #ffffff;
+      padding: 100px 100px;
+      display: inline-block;
+      margin: 100px 20px;
+      cursor: pointer;
+
+    }

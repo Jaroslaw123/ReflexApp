@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Refleksomierz</title>
+    <meta name="czas" content="Gra która mierzy refleks użytkownika"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="layout.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="layout.css">
+  </head>
+
+  <body>
+      <header><h1>Refleksomierz</h1></header>
+      <button class = "button start" onClick = "reflectTimer.start();" >START</button>
+      <button class = "button stop" onClick = "reflectTimer.stop();">STOP</button>
+      <table class = "statistics">
+            <tr>
+                  <th>najkrótszy czas reakcji</th>
+                  <th>najdłuższy czas reakcji</th>
+                  <th>średni czas reakcji</th>
+                  <th>najlepszy wynik w grze</th>
+            </tr>
+            <tr>
+                  <td id = "t1"></td>
+                  <td id = "t2"></td>
+                  <td id = "t3"></td>
+                  <td id = "t4"></td>
+                </tr>
+      </table>
+      <button id = "reactionButton" onClick = "reflectTimer.userReaction();"></button>
+    <script>
+      src = "main.js";
+    </script>
+  </body>
+</html>
